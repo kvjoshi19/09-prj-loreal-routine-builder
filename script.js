@@ -1,3 +1,10 @@
+let allProducts = [];
+const productsContainer = document.getElementById("productsContainer");
+const categoryFilter = document.getElementById("categoryFilter");
+const chatForm = document.getElementById("chatForm");
+const chatWindow = document.getElementById("chatWindow");
+const userInput = document.getElementById("userInput");
+
 // Add at the top — config and state
 const WORKER_URL = "https://loreal-routine.kvjoshi.workers.dev";
 let selectedIds = new Set();
